@@ -1,2 +1,2 @@
 #!/bin/bash
-if [ -f "/tmp/iamafile" ]; then filetype=$(file "/tmp/iamafile") echo "/tmp/iamafile: $filetype" else echo "Error: File /tmp/iamafile not found." fi
+if [ -f "/tmp/iamafile" ] then filetype=$(file "/tmp/iamafile") echo "/tmp/iamafile: $filetype" else echo "Error: File /tmp/iamafile not found." fi
